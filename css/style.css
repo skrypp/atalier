@@ -1,0 +1,554 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #181511;
+    font-weight: lighter;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto
+}
+
+header{
+    margin: 15px 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+}
+
+.bars{
+    display: none;
+}
+
+.bars div{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;  
+}
+
+.list{
+    align-items: center;
+    gap: 40px;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.list h1{
+    color: #FFAE2B;
+    font-weight: lighter;
+
+}
+
+.list ul li a{
+    text-transform: uppercase;
+    color: #ACA592;
+    font-size: 12px;
+}
+
+.active{
+    color: #FFAE2B
+    !important;
+
+}
+
+
+.navbar button{
+    color: #FFAE2B;
+    width: 150px;
+    padding: 15px;
+    background: none;
+    border: 1px solid #FFAE2B;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+.banner{
+    background: url("../assets/images/IMAGE.png") center / cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.banner_content{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.banner_content p{
+    color: #FFAE2B;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 3px;
+
+
+}
+
+.banner_content h1{
+    font-size: 70px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.banner_content button{
+    color: black;
+    text-transform: uppercase;
+    font-weight: lighter;
+    width: 150px;
+    padding: 20px 0;
+    background-color: #FFAE2B;
+    border: 0;
+    margin-top: 50px;
+}
+/* Pages*/
+
+
+.pages{
+    margin-top: 120px;
+}
+
+.pages_title {
+    text-align: center;
+}
+
+.pages_title p{
+    text-transform: uppercase;
+    color: #ACA592;
+    font-weight: lighter;
+}
+
+.pages_title h1{
+    color: #FFAE2B;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.row_pages{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll
+}
+
+.row_pages::-webkit-scrollbar{
+    display: none;
+}
+
+.pages_card{
+    border: 1px solid #4b4136;
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #4b4136;
+
+}
+.pages_card p {
+    color: #ACA592;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.banner_bottom{
+    background: url("../assets/images/ddddddddddd.png") center / cover;
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+}
+
+
+
+/* Services */
+
+.services{
+    margin-top: 120px;
+}
+
+.services_title p {
+    text-transform: uppercase;
+    color: #ACA592;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.services_title h1{
+    color: #FFAE2B;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.row_services{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.services_card{
+    width: 30%;
+    border: 1px solid #4b4136;
+    box-shadow: 0 0 10px #4b4136;
+    height: 350px;
+}
+
+.service_card_content {
+    margin-left: 70px;
+    margin-top: 60px;
+
+
+}
+
+.service_card_content img{
+    width: 80px;
+}
+
+.service_card_content h2{
+    margin-top: 15px;
+    color: #FFAE2B;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.service_card_content p {
+    color: #ACA592;
+    font-weight: lighter;
+    margin-right: 100px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+
+/* sociel */
+
+.row_sociel{
+    margin-top: 140px;
+    display: flex;
+    gap: 30px;
+    
+
+}
+
+.social_card{
+    width: 20%; 
+    height: 240px; 
+    position: relative;
+}
+
+.card1{
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/autumn-leaves-tree-1600566366.jpg") center / cover;  
+}
+
+.social_card img {
+    position: absolute;
+    top: -10%;
+    left: 45%;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 125px;
+    text-align: center;
+   
+}
+
+.footer h1 {
+    font-size: 70px;
+    font-weight: lighter;
+    color: #FFAE2B;
+    line-height: 70px;
+}
+
+.footer p {
+    color: #ACA592;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+.footer img {
+    margin-top: 82px;
+}
+
+.footer_content p {
+    text-align: center;
+    color: #ACA592;
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer_content img {
+    position: relative;
+    left: 45%;
+}
+
+.footer_content hr {
+    margin-top: 42px;
+}
+
+
+
+.footer_list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.footer_left ul {
+    display:flex;
+    color: #ACA592;
+}
+
+.footer_right ul {
+    display: flex;
+    color: #FFAE2B;
+    gap: 11px;
+}
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width:1024px) {
+    .banner_content h1 {
+        font-size: 50px;
+    }
+
+    .pages_title h1 {
+        font-size: 50px;
+    }
+
+    .pages_card {
+        width: 50%;
+    }
+
+    .services_title h1 {
+        font-size: 50px;
+    }
+
+    .row_services {
+        flex-wrap: wrap;
+    }
+
+    .services_card {
+        width: 47%;
+    }
+
+    .row_sociel {
+        flex-wrap: wrap;
+
+    }
+
+    .social_card {
+        width: 47%;
+    }
+
+
+    .footer h1 {
+        font-size: 50px;
+    }
+
+    .footer_content p {
+        left: 28%;
+    }
+
+    .active3 {
+        left: 18%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .list ul {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .banner {
+        height: 60vh;
+    } 
+
+    .banner_content h1 {
+        font-size: 35px;
+    }
+
+    .pages_title h1 {
+        font-size: 35px;
+    }
+
+    .pages_title p {
+        font-size: 12px;
+    }
+
+    .pages_card{
+        width: 100%;
+    }
+
+    .banner_bottom {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .services_title h1 {
+        font-size: 35px;
+    }
+
+    .services_title p {
+        font-size: 12px;
+    }
+
+    .services_card {
+        width: 100%;
+    }
+
+    .footer h1 {
+        font-size: 35px;
+    }
+
+
+    .footer_content img {
+        left: 35%;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+
+    .row_pages {
+        width: 105%;
+    }
+
+    .pages_card {
+        width: 100%;
+    }
+
+    .service_card_content {
+        margin-left: 40px;
+    }
+
+    .service_card_content p {
+        margin-right: 50px;
+    }
+
+    .social_card {
+        width: 100%;
+    }
+
+    .footer h1 {
+        font-size: 35px;
+    }
+
+    .footer img {
+        width: 100%;
+        height: 15vh;
+    }
+
+   .footer_content img {
+    left: 20%;
+   }
+
+
+   .footer_list {
+    display: block;
+   }
+
+}
+
+@media screen and (max-width:375px) {
+    .banner {
+        height: 100%;
+        padding: 50px 0;
+    }
+
+    .banner_content {
+        padding-top:0 ;
+    }
+
+    .banner_content h1 {
+        font-size: 25px;
+    }
+
+    .banner_content p {
+        font-size: 12px;
+    }
+
+
+    .pages_title h1 {
+        font-size: 25px;
+    }
+
+    .pages_title p {
+        font-size: 10px;
+    }
+
+    .row_pages {
+        width: 150%;
+    }
+
+    .pages_card {
+        width: 100%;
+    }
+
+
+    
+}
+
+@media screen and (max-width:320px) {
+   .banner_content p {
+    font-size: 10px;
+   }
+
+   .banner_content h1 {
+    font-size: 20px;
+   }
+
+   .banner_content button {
+        width: 90px;
+        font-size: 11px;
+   }
+
+}
